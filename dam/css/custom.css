@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap");
+
+body {
+    background: #181818;
+    font-family: "Open Sans", sans-serif;
+}
+
+.contact-flex{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-area-1 .header-wrapper .get-in-touch,
+.header-area-1 .header-wrapper .logo{
+    width: 100%;
+}
+
+.home{
+    visibility: hidden;
+    pointer-events: none;
+}
+
+@media (max-width: 767px){
+    .contact-font{
+        font-size: 12px;
+    }
+    .header-area-1 .header-wrapper .get-in-touch {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .home{
+        visibility: visible;
+        pointer-events: default;
+    }
+}
+
+.sub-options-list{
+    margin: 10px 0;
+}
+
+.sub-options-list li{
+    color: #CCDEFF;
+}
+
+.logo{
+    padding: 0 !important;
+}
+
+.company-logo{
+    max-width: 120px;
+}
+
+.desktop img{
+    margin: 0 auto;
+}
+
+@media (max-width: 767px){
+    .desktop img{
+        display: none;
+    }
+    .company-logo{
+        max-width: 90px;
+    }
+    .hero-area .hero-img-banner{
+        padding-top: 30px;
+    }
+    .offer-area-home-1{
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+}
+
+.ft_logo{
+    max-width: 90px;
+}
+
+#progress{
+    bottom: 80px;
+}
+
+.bottom-subtitle{
+    margin-top: 30px;
+}

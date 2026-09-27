@@ -1,0 +1,296 @@
+.cs-nav_list>li.dropdown_arrow_none>a::after {
+  display: none !important;
+}
+
+.ft_logo {
+  max-width: 90px;
+}
+
+.cs-munu_dropdown_toggle {
+  display: none;
+}
+
+.cs-scrollup {
+  display: none;
+}
+
+.ButtonBase__Overlay-sc-p43e7i-4 {
+  padding: 8px !important;
+}
+
+.lkMZyR>span>div,
+.lkMZyR svg {
+  width: 24px !important;
+  height: 24px !important;
+}
+
+.fESTRz {
+  width: 8px !important;
+  height: 8px !important;
+}
+
+video {
+  width: 100%;
+}
+
+.video-wrapper {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  top: 0;
+}
+
+.cs-funfact_wrap.cs-type1 {
+  margin-top: 0 !important;
+}
+
+
+@media screen and (max-width:600px) {
+  .cs-funfact_wrap.cs-type1 {
+    margin-top: 25px !important;
+  }
+}
+
+.about-page .cs-funfact_wrap.cs-type1 {
+  margin-top: 0 !important;
+}
+
+.cs-hero.cs-style1 {
+  padding: 0 !important;
+  height: 100% !important;
+  min-height: 100% !important;
+}
+
+
+.video-wrapper .cs-hero_social_wrap,
+.cs-fullscreen_swiper_wrap .cs-hero_social_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  -webkit-writing-mode: vertical-lr;
+  -ms-writing-mode: tb-lr;
+  writing-mode: vertical-lr;
+  -webkit-transform: rotate(180deg) translateY(85%);
+  transform: rotate(180deg) translateY(85%);
+  right: 45px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1199px) {
+
+  .video-wrapper .cs-hero_social_wrap,
+  .cs-fullscreen_swiper_wrap .cs-hero_social_wrap {
+    display: none;
+  }
+}
+
+.video-wrapper .cs-hero_social_title,
+.cs-fullscreen_swiper_wrap .cs-hero_social_title {
+  position: relative;
+  padding-bottom: 35px;
+  white-space: nowrap;
+}
+
+.video-wrapper .cs-hero_social_links,
+.cs-fullscreen_swiper_wrap .cs-hero_social_links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+
+.video-wrapper .cs-hero_social_links li,
+.cs-fullscreen_swiper_wrap .cs-hero_social_links li {
+  position: relative;
+  padding-bottom: 32px;
+  white-space: nowrap;
+}
+
+.cs-card_title {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  margin: 5px 0 0 0;
+}
+
+.cs-section_heading.cs-style1 .cs-section_subtitle {
+  font-size: 26px;
+  color: #fff;
+}
+
+@media screen and (max-width: 991px) {
+  .cs-section_heading.cs-style1 .cs-section_subtitle {
+    font-size: 16px;
+    color: #fff;
+  }
+}
+
+#cd-form_select option {
+  color: #fff;
+  border-radius: 10px;
+  background-color: #ffbf00;
+}
+
+/* .you-frame{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.cs-portfolio_bg{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; 
+} */
+
+.desktop-video {
+  display: block;
+}
+
+.mob-video {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .desktop-video {
+    display: none;
+  }
+
+  .mob-video {
+    display: block;
+  }
+
+}
+
+.cs-portfolio.cs-style1.cs-type1:hover .cs-portfolio_info_bg {
+  display: none !important;
+}
+
+.cs-portfolio_info {
+  display: none;
+}
+
+.gif_img {
+  max-width: 150px;
+  height: 150px;
+}
+
+.cs-hobble {
+  text-align: center;
+}
+
+.since_text {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #fff;
+}
+
+@media screen and (max-width:992px) {
+  .cs-card.cs-style1 .cs-card_info span {
+    display: none;
+  }
+}
+
+a.cs-down_btn {
+  bottom: 15%;
+}
+
+.planfor_web li a {
+  pointer-events: none;
+}
+
+.bullet_arrow_lg svg {
+  width: 38px;
+}
+
+.bullet_arrow_md svg {
+  width: 65px;
+}
+
+/**********Whatsapp Butoon**********/
+.whatsapp-button {
+  background-color: #25D366;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 16px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  animation: pulse 2s infinite;
+}
+
+.whatsapp-icon {
+  margin-right: 10px;
+}
+
+@media screen and (max-width:600px) {
+  .whatsapp_info_text {
+    display: none;
+  }
+
+  .whatsapp-icon {
+    margin-right: 0;
+  }
+
+  .whatsapp-button {
+    padding: 13px;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/*********Form CSS**********/
+.error-message {
+  color: #ff3333;
+  margin-top: 5px;
+}
+
+.success-message {
+  color: #5cb85c;
+  margin-top: 20px;
+}
+
+/**********Table css*******/
+
+/***Portfolio image size on mobile***/
+
+
+.cs-portfolio.cs-style1 .cs-portfolio_bg {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.cs-social_btns a:last-child {
+  display: none;
+}
